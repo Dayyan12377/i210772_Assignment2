@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VideoScreenActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="659dp"
+        android:src="@drawable/cameraScreen"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/camIcons"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgButton"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/orangePhotoButton"
+            android:clickable="true"
+            android:contextClickable="true"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textVideoBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="13dp"
+            android:clickable="true"
+            android:text="Video"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
